@@ -1,0 +1,110 @@
+.about__solar {
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 1rem 1rem 0 1rem;
+    width: 100%;
+}
+
+.about__solar .container {
+    margin: auto;
+    display: grid;
+    width: 100%;
+
+}
+
+.about__solar .container div {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+.about__solar .container .drop__down {
+    align-items: center;
+    justify-items: center;
+    margin-left: 500px;
+}
+
+
+.about__solar h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    vertical-align: text-bottom;
+    min-height: 60px;
+}
+
+.about__solar .col-2 {
+    display: flex;
+    flex-direction: column;
+}
+.about__solar .graph {
+    border-radius: 5px;
+    border: 50px;
+    border-color: rgb(43, 58, 59);
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.about__solar .graph h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    vertical-align: text-bottom;
+    min-height: 60px;
+    margin-top: 50px;
+}
+
+.about__solar .col-2 h2 {
+    color: #f8f8f8;
+    text-align: center;
+    
+}
+
+.about__solar .graph span {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 1000;
+}
+
+.expenses-filter {
+    color: rgb(0, 0, 0);
+    padding: 0 1rem;
+  }
+  
+  .expenses-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+  }
+  
+  .expenses-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-right: 5px;
+    
+  }
+  
+  .expenses-filter select {
+    font: inherit;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+@media screen and (max-width:940px) {
+    .about__solar .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about__solar .container {
+        width: 100%;
+    }
+
+    .about__solar .container .col-2 {
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+

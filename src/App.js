@@ -5,29 +5,18 @@ import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Demo from './components/Demo'
 import Footer from './components/Footer'
+import {Route, Routes} from 'react-router-dom'
+import Main from './Main'
+import Solar from './Solar'
 
 
 function App() {
-  const [page, setPage] = useState(0);
-  return (
-    
+  return ( 
     <div>
-      {/* if (page == 4){
-        <div>
-          <Navbar />
-          <Hero />
-          <About />
-          <Testimonials />
-          <Demo />
-          <Footer />
-        </div>
-      } */}
-      <Navbar />
-      <Hero />
-      <About />
-      <Testimonials />
-      <Demo />
-      <Footer />
+      <Routes>
+      <Route  path="/" element={<Main/>} />
+      <Route  path="/solar" element={<Solar/>} />
+      </Routes>
     </div>
   );
 }

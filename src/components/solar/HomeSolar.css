@@ -1,0 +1,63 @@
+.home__solar {
+    background-color: var(--overlay);
+    color: #fff;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+.home__solar:before {
+    content: '';
+    background: url('../images/solar-energy.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home__solar .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.home__solar .content p:first-child {
+    margin-top: 60px;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.home__solar .content p:nth-child(2) {
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+.home__solar .button {
+    margin: 1rem 0;
+    width: 600px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: #333;
+}
+
+.home__solar .button:hover {
+    background-color: var(--secondary-dark);
+    border: 1px solid var(--secondary-dark);
+}
+
+@media screen and (max-width:940px) {
+    .home__solar .content p:first-child {
+        font-size: 2.6rem;
+    }
+
+    .home__solar .content p:nth-child(2) {
+        font-size: 1.6rem;
+    }
+}
+
