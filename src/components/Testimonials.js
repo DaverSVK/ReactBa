@@ -8,10 +8,10 @@ const Testimonials = () => {
     return (
         <div className='testimonials' id='testimonials'>
             <div className='container'>
-                <h2>Testimonials</h2>
+                <h2>Recommandations</h2>
                 <span className='line'></span>
                 <div className='content'>
-                    <div className='card'>
+                    {/* <div className='card'>
                         <img src={user1} alt='user1'/>
                         <p>It is not every day that you come across a passionate and trustworthy financial advisor. John Doe is true professional who does his work really well. Thanks John!</p>
                         <p><span>Johnson.M.J.</span></p>
@@ -28,7 +28,7 @@ const Testimonials = () => {
                         <p>A very professional financial advisor, who is true to his word. John has demonstrated a high amount of integrity in the time I have known him, and he is fast to respond to my concerns.</p>
                         <p><span>Snow.J.R.</span></p>
                         <p>Managing Director of BPW Global</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

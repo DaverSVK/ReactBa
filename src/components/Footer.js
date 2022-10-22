@@ -19,10 +19,7 @@ const Footer = () => {
                         <a href='#demo'>Demo</a>
                     </li>
                 </ul>
-                <div className='bottom'>
-                    <span className='line'></span>
-                    <p>2020 Execute, Inc. All rights reserved</p>
-                </div>
+                
             </div>
         </div>
     )

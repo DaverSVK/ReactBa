@@ -1,18 +1,48 @@
 import React from 'react'
-import john from './images/john-doe.png'
+// import ReactDOM from 'react-dom'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import './About.css'
 
 const About = () => {
     return (
         <div className='about' id='about'>
             <div className='container'>
-                <img src={john} alt='john' />
-                <div className='col-2'>
-                    <h2>About</h2>
-                    <span className='line'></span>
-                    <p>Intense is an International Financial Planning company with offices i n multiple jurisdictions over the world. Working with Intense gives me the ability to advise internat ional expatriates living in the middle east from where I live in USA.</p>
-                    <p>I am John Doe, a senior advisor for an independently owned financial planning company called Intense.</p>
-                    <button className='button'>Explore More</button>
+                <div className='container-row'>
+                    <div className='col-2'>
+                        <h2>Water Quality</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                    <div className='col-2'>
+                        <h2>Humidity</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                    <div className='col-2'>
+                        <h2>External temperature</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                    <div className='col-2'>
+                        <h2>Solar light</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                
+                    <div className='col-2'>
+                        <h2>Rain intensity</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                    <div className='col-2'>
+                        <h2>Nature ratio</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                    <div className='col-2'>
+                        <h2>Emisions</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                    <div className='col-2'>
+                        <h2>Light polution</h2>
+                        <button className='button'>Explore</button>
+                    </div>
+                
                 </div>
             </div>
         </div>
