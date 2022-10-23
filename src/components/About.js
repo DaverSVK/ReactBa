@@ -18,29 +18,16 @@ const About = () => {
                     </div>
                     <div className='col-2'>
                         <h2>Rain intensity</h2>
+                        <Link to="/rain"> 
                         <button className='button'>Explore</button>
+                        </Link>
                     </div>
-                    <div className='col-2'>
-                        <h2>Water Quality</h2>  
-                        <button className='button'>Explore</button>                  
-                    </div>
-                    <div className='col-2'>
-                        <h2>Humidity</h2>
-                        <button className='button'>Explore</button>
-                    </div>
-                    <div className='col-2'>
-                        <h2>External temperature</h2>
-                        <button className='button'>Explore</button>
-                    </div>
-                
+                   
                     <div className='col-2'>
                         <h2>Nature ratio</h2>
                         <button className='button'>Explore</button>
                     </div>
-                    <div className='col-2'>
-                        <h2>Emisions</h2>
-                        <button className='button'>Explore</button>
-                    </div>
+                    
                     <div className='col-2'>
                         <h2>Light polution</h2>
                         <button className='button'>Explore</button>

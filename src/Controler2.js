@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from "axios";
 
-const URL = "http://localhost:8083/sunlight/list"
+const URL = "http://localhost:8083/raindrops/list"
 
 class Controller{
 

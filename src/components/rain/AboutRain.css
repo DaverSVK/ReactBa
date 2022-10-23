@@ -1,26 +1,26 @@
-.about__solar {
+.about__rain {
     background-color: #f8f8f8;
     margin: auto;
     padding: 1rem 1rem 0 1rem;
     width: 100%;
 }
 
-.about__solar .container {
+.about__rain .container {
     margin: auto;
     display: grid;
     width: 100%;
 
 }
 
-.about__solar .heading h2{
+.about__rain .heading h2{
     text-align: center;
 
 }
-.about__solar .container div {
+.about__rain .container div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.about__solar .container .searchB {
+.about__rain .container .searchB {
     min-width: 200px;
     min-height: 50px;
     color: rgb(255, 255, 255);
@@ -30,13 +30,13 @@
     margin-top: 1rem;
     opacity: 0.7;
 }
-.about__solar .container .drop__down {
+.about__rain .container .drop__down {
     align-items: center;
     justify-items: center;
     
 }
 
-.about__solar .container2 {
+.about__rain .container2 {
     background: url('../images/Karlova-ves.png') no-repeat center;
     margin: auto;
     display: grid;
@@ -44,18 +44,18 @@
     height: 800px;
 
 }
-.about__solar h2 {
+.about__rain h2 {
     font-size: 2.5rem;
     text-align: left;
     vertical-align: text-bottom;
     min-height: 60px;
 }
 
-.about__solar .col-2 {
+.about__rain .col-2 {
     display: flex;
     flex-direction: column;
 }
-.about__solar .graph div{
+.about__rain .graph div{
     border-radius: 5px;
     border: 50px;
     border-color: rgb(43, 58, 59);
@@ -64,7 +64,7 @@
     align-items: center;
     justify-content: center;
 }
-.about__solar .graph h3 {
+.about__rain .graph h3 {
     font-size: 2.5rem;
     text-align: center;
     vertical-align: text-bottom;
@@ -72,13 +72,13 @@
     margin-top: 50px;
 }
 
-.about__solar .col-2 h2 {
+.about__rain .col-2 h2 {
     color: #f8f8f8;
     text-align: center;
     
 }
 
-.about__solar .graph span {
+.about__rain .graph span {
     color: var(--primary-color);
     font-size: 1rem;
     font-weight: 1000;
@@ -114,15 +114,15 @@
     border-radius: 6px;
   }
 @media screen and (max-width:940px) {
-    .about__solar .container {
+    .about__rain .container {
         grid-template-columns: 1fr;
     }
 
-    .about__solar .container {
+    .about__rain .container {
         width: 100%;
     }
 
-    .about__solar .container .col-2 {
+    .about__rain .container .col-2 {
         padding: 0;
     }
 

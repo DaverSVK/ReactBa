@@ -6,9 +6,9 @@ import 'react-dropdown-now/style.css';
 // import ReactDOM from 'react-dom'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import './AboutSolar.css'
+import './AboutRain.css'
 import { Button } from 'rsuite';
-import Controler from "../../Controler";
+import Controler from "../../Controler2";
 import MapPick from '../images/Karlova-ves.png'
 
 
@@ -42,7 +42,7 @@ const About = () => {
       };
       
     return (
-        <div className='about__solar' id='about'>
+        <div className='about__rain' id='about'>
             <div className='container'>
                 <h2>Data sources:</h2>
                 <p>:::data_souses:::</p>
@@ -96,10 +96,10 @@ const About = () => {
                 margin={{ top: 50, right: 30, left: 180, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="year" label={{ value: 'Year', angle: 0, position: 'bottom' }}/>
-                <YAxis dataKey="sunlight"label={{ value: 'Duration of sunshine per year [hour]',offset: 2, angle: -90, position: 'insideBottomLeft' }}/>
+                <YAxis dataKey="rain"label={{ value: 'Duration of sunshine per year [hour]',offset: 2, angle: -90, position: 'insideBottomLeft' }}/>
                 <Tooltip />
                 <Legend />
-                <Line type="monotone" dataKey="sunlight" stroke="#8884d8" />
+                <Line type="monotone" dataKey="rain" stroke="#8884d8" />
                 </LineChart>
             </div>
             <div className='heading'>

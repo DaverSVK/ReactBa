@@ -29,37 +29,8 @@
     height: 250px;
     border-radius: 150px;
 }
-.about .container-row div:nth-child(4){
-    background: url('./images/bars-staggered-solid.svg') no-repeat center;
-    background-size: 150px 150px;
-    background-color: cadetblue;
-    margin: 25px;
-    margin-bottom: 50px;
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
 
-}
-.about .container-row div:nth-child(5){
-    background: url('./images/temperature-three-quarters-solid.svg') no-repeat center;
-    background-size: 150px 150px;
-    background-color: cadetblue;
-    margin: 25px;
-    margin-bottom: 50px;
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
-}
-.about .container-row div:nth-child(3){
-    background: url('./images/faucet-drip-solid.svg') no-repeat center;
-    background-size: 150px 150px;
-    background-color: cadetblue;
-    margin: 25px;
-    margin-bottom: 50px;
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
-}
+
 .about .container-row div:nth-child(2){
     background: url('./images/cloud-showers-heavy-solid.svg') no-repeat center;
     background-size: 150px 150px;
@@ -70,7 +41,7 @@
     height: 250px;
     border-radius: 150px;
 }
-.about .container-row div:nth-child(6){
+.about .container-row div:nth-child(3){
     background: url('./images/tree-city-solid.svg') no-repeat center;
     background-size: 150px 150px;
     background-color: cadetblue;
@@ -80,17 +51,8 @@
     height: 250px;
     border-radius: 150px;
 }
-.about .container-row div:nth-child(7){
-    background: url('./images/smog-solid.svg') no-repeat center;
-    background-size: 150px 150px;
-    background-color: cadetblue;
-    margin: 25px;
-    margin-bottom: 50px;
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
-}
-.about .container-row div:nth-child(8){
+
+.about .container-row div:nth-child(4){
     background: url('./images/lightbulb-solid.svg') no-repeat center;
     background-size: 150px 150px;
     background-color: cadetblue;
