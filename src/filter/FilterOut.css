@@ -1,0 +1,54 @@
+.data-part {
+    background-color: cadetblue;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+
+
+  .data-part__description {
+    gap: 1rem;
+    align-items: flex-end;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    flex: 1;
+    border-radius: 5px;
+  }
+  
+  .data-part h2 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    flex: 1;
+    margin: 1 1rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+  }
+  .data-part h1 {
+    color: #3a3a3a;
+    font-size: 1.5rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+
+  
+  @media (min-width: 580px) {
+    .data-part__description {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      flex: 1;
+    }
+  
+    .data-part__description h2 {
+      font-size: 1rem;
+    }
+  
+    .data-part__price {
+      font-size: 1rem;
+      padding: 0.4rem 1rem;
+      
+    }
+  }
