@@ -18,4 +18,4 @@ You will also see any lint errors in the console.
 
 https://github.com/lengeligor/Climathon.git
 
-#App was created in short time and have very bad optimalisation ad code look like trash (may return and finish it)
+# App was created in short time and have very bad optimalisation ad code look like trash (may return and finish it)
